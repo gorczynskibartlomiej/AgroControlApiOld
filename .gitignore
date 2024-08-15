@@ -26,8 +26,6 @@ nupkg/
 *.userosscache
 *.sln.docstates
 
-# Ignore folder log
-PZ/PZ.API/log
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
