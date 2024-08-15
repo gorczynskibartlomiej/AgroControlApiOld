@@ -3,9 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{3CE3ECD8-A8B1-49F0-B9F9-DA43444F1A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{A3660720-8247-4942-ACBC-8BD21B414EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroControl.API", "AgroControl.API\AgroControl.API.csproj", "{D8CC324F-CD90-4247-9D18-529792F9138A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C86059D-7586-4761-B30F-1380F140F88F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3395E674-199F-40B7-A861-D1231737A40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{01F18C58-E96B-42EE-B266-4E2FD916983A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{047AF102-5C80-42DC-AAF6-6A8099AB4FE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroControl.UI", "AgroControl.UI\AgroControl.UI.csproj", "{79D925CC-0AEA-46CA-A45C-24A5C186C46F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8CC324F-CD90-4247-9D18-529792F9138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CC324F-CD90-4247-9D18-529792F9138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CC324F-CD90-4247-9D18-529792F9138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CC324F-CD90-4247-9D18-529792F9138A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D925CC-0AEA-46CA-A45C-24A5C186C46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D925CC-0AEA-46CA-A45C-24A5C186C46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D925CC-0AEA-46CA-A45C-24A5C186C46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D925CC-0AEA-46CA-A45C-24A5C186C46F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8CC324F-CD90-4247-9D18-529792F9138A} = {1C86059D-7586-4761-B30F-1380F140F88F}
+		{1C86059D-7586-4761-B30F-1380F140F88F} = {3CE3ECD8-A8B1-49F0-B9F9-DA43444F1A64}
+		{3395E674-199F-40B7-A861-D1231737A40B} = {3CE3ECD8-A8B1-49F0-B9F9-DA43444F1A64}
+		{01F18C58-E96B-42EE-B266-4E2FD916983A} = {A3660720-8247-4942-ACBC-8BD21B414EA4}
+		{047AF102-5C80-42DC-AAF6-6A8099AB4FE2} = {A3660720-8247-4942-ACBC-8BD21B414EA4}
+		{79D925CC-0AEA-46CA-A45C-24A5C186C46F} = {047AF102-5C80-42DC-AAF6-6A8099AB4FE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8179BAFA-3AA3-4867-9AB4-E1B867A28D9B}

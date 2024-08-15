@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gorcz\\source\\repos\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj": {}
+    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gorcz\\source\\repos\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj": {
+    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gorcz\\source\\repos\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj",
+        "projectUniqueName": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj",
         "projectName": "AgroControl.UI",
-        "projectPath": "C:\\Users\\gorcz\\source\\repos\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj",
+        "projectPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.UI\\AgroControl.UI.csproj",
         "packagesPath": "C:\\Users\\gorcz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gorcz\\source\\repos\\AgroControl\\AgroControl.UI\\obj\\",
+        "outputPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
