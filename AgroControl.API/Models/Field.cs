@@ -3,9 +3,10 @@
     public class Field
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public required string Name { get; set; }
         public int FarmId { get; set; }
         //public Polygon Polygon {  get; set; }
+        //dorobic informacje!!!
         public decimal Area { get; set; }
 
         public DateTime CreatedOn { get; set; }

@@ -6,8 +6,8 @@
         public int ChemicalElementId { get; set; }
         public decimal ElementPercentage { get; set; }
 
-        public Fertilizer Fertilizer { get; set; }
-        public ChemicalElement ChemicalElement { get; set; }
+        public required Fertilizer Fertilizer { get; set; }
+        public required ChemicalElement ChemicalElement { get; set; }
     }
     
 }

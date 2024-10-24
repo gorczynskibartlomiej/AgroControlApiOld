@@ -4,7 +4,7 @@
     {
         public int FertilizingWorkId { get; set; }
         public int FertilizerId { get; set; }
-        public FertilizingWork FertilizingWork { get; set; }
-        public Fertilizer Fertilizer { get; set; }
+        public required FertilizingWork FertilizingWork { get; set; }
+        public required Fertilizer Fertilizer { get; set; }
     }
 }

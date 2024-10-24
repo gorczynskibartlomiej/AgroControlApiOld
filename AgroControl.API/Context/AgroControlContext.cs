@@ -1,10 +1,11 @@
 ﻿using AgroControl.API.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace AgroControl.API.Context
 {
-    public class AgroControlContext:IdentityDbContext<AgroControlUser>
+    public class AgroControlContext:IdentityDbContext<AgroControlUser,IdentityRole<Guid>,Guid>
     {
         public AgroControlContext(DbContextOptions<AgroControlContext> options):base(options) 
         {
@@ -36,5 +37,12 @@ namespace AgroControl.API.Context
         public DbSet<Seed> Seeds { get; set; }
         public DbSet<SprayingWorkCropProtectionProduct> SprayingWorkCropProtectionProducts { get; set; }
         public DbSet<Unit> Units { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Purchase>().UseTpcMappingStrategy();
+            modelBuilder.Entity<FarmInventory>().UseTpcMappingStrategy();
+            modelBuilder.Entity<FieldWork>().UseTpcMappingStrategy();
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

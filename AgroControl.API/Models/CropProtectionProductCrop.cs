@@ -2,8 +2,7 @@
 {
     public class CropProtectionProductCrop
     {
-        public int Id { get; set; }
-        public int CropProtectionproductId { get; set; }
+        public int CropProtectionProductId { get; set; }
         public int CropId { get; set; }
 
         public CropProtectionProduct CropProtectionProduct { get; set; }

@@ -9,7 +9,7 @@ namespace AgroControl.API.kosz
         public int FertilizerId { get; set; }
         public int FieldId { get; set; }
         public int CropId { get; set; }
-        public string Notes { get; set; }
+        public string Description { get; set; }
         public int QuantityPerHectare { get; set; }
 
 

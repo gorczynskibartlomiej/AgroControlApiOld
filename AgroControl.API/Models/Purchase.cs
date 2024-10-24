@@ -6,9 +6,9 @@
         public int FarmId { get; set; }
         public DateTime PurchaseDate { get; set; }
         public decimal PricePerUnit { get; set; }
-        public string Notes { get; set; }
+        public string Description { get; set; }
         public string SupplierName { get; set; }
-        public string Unit { get; set; }
+        public string UnitId { get; set; }
         public int Quantity { get; set; }
 
         public DateTime CreatedOn { get; set; }
@@ -19,6 +19,7 @@
         public int? DeletedBy { get; set; }
 
         public Farm Farm { get; set; }
+        public Unit Unit {  get; set; }
     }
     public class FertilizerPurchase : Purchase
     {
@@ -41,6 +42,4 @@
         public int SeedId {  get; set; }
         public Seed Seed { get; set; }
     }
-
-
 }
