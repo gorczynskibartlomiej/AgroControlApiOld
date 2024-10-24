@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VFP8pD4F3iE=",
+  "dgSpecHash": "JMU0iogVq9s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\AgroControl.API.csproj",
+  "projectFilePath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gorcz\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gorcz\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

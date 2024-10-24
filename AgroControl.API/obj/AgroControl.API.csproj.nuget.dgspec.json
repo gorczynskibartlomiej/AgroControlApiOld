@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\AgroControl.API.csproj": {}
+    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\AgroControl.API.csproj": {
+    "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\AgroControl.API.csproj",
+        "projectUniqueName": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj",
         "projectName": "AgroControl.API",
-        "projectPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\AgroControl.API.csproj",
+        "projectPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj",
         "packagesPath": "C:\\Users\\gorcz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControl\\AgroControl.API\\obj\\",
+        "outputPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
