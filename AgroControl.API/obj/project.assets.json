@@ -3345,9 +3345,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj",
-      "projectName": "AgroControl.API",
-      "projectPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControl.API.csproj",
+      "projectUniqueName": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControlApi.csproj",
+      "projectName": "AgroControlApi",
+      "projectPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\AgroControlApi.csproj",
       "packagesPath": "C:\\Users\\gorcz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gorcz\\OneDrive\\Desktop\\Projekt\\AgroControlApi\\AgroControl.API\\obj\\",
       "projectStyle": "PackageReference",
